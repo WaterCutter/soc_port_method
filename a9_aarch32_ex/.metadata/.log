@@ -1,0 +1,52 @@
+!SESSION 2023-03-22 15:35:37.892 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11-release
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Library\Docs\eBooks\Electrics_Computer\EmbedLearner\Intermediate\ARM\ARMv8\ARMv8之Cache和MMU\code\simu_a53_elx_test
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-22 15:35:47.689
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hy000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2023-03-22 15:35:50.568
+!MESSAGE Restoring info for: C:\Program Files\Arm\Development Studio 2020.0\sw\ide\plugins\com.arm.tpip.jython_2.7.0.20200331_211023\lib\jython-2.7.0-standalone.jar
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Program Files\Arm\Development Studio 2020.0\sw\ide\plugins\com.arm.tpip.jython_2.7.0.20200331_211023\lib\jython-2.7.0-standalone.jar
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:279)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:576)
+	at com.arm.pydev.StartupListener.updateConfig(StartupListener.java:223)
+	at com.arm.pydev.StartupListener.earlyStartup(StartupListener.java:82)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2711)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Expecting: D:\Library\Docs\eBooks\Electrics_Computer\EmbedLearner\Intermediate\ARM\ARMv8\ARMv8之Cache和MMU\code\simu_a53_elx_test\.metadata\.plugins\org.python.pydev\v1_9w48118rkofrtbv4jerg0ncl6\modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:296)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:400)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:451)
+	... 9 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2023-03-22 15:35:50.817
+!MESSAGE Finished restoring information for: C:\Program Files\Arm\Development Studio 2020.0\sw\ide\plugins\com.arm.tpip.jython_2.7.0.20200331_211023\lib\jython-2.7.0-standalone.jar at: D:\Library\Docs\eBooks\Electrics_Computer\EmbedLearner\Intermediate\ARM\ARMv8\ARMv8之Cache和MMU\code\simu_a53_elx_test\.metadata\.plugins\org.python.pydev\v1_9w48118rkofrtbv4jerg0ncl6
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Program Files\Arm\Development Studio 2020.0\sw\ide\plugins\com.arm.tpip.jython_2.7.0.20200331_211023\lib\jython-2.7.0-standalone.jar at: D:\Library\Docs\eBooks\Electrics_Computer\EmbedLearner\Intermediate\ARM\ARMv8\ARMv8之Cache和MMU\code\simu_a53_elx_test\.metadata\.plugins\org.python.pydev\v1_9w48118rkofrtbv4jerg0ncl6
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:498)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:279)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:576)
+	at com.arm.pydev.StartupListener.updateConfig(StartupListener.java:223)
+	at com.arm.pydev.StartupListener.earlyStartup(StartupListener.java:82)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2711)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-03-22 15:35:51.054
+!MESSAGE Info: Rebuilding internal caches: D:\Library\Docs\eBooks\Electrics_Computer\EmbedLearner\Intermediate\ARM\ARMv8\ARMv8之Cache和MMU\code\simu_a53_elx_test\.metadata\.plugins\com.python.pydev.analysis\jython_v1_9w48118rkofrtbv4jerg0ncl6\jython.pydevsysteminfo (Expected error to be provided and got no error!)

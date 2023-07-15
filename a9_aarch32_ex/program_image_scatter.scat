@@ -1,0 +1,18 @@
+LOAD_REGION 0x2E000000 0x10000
+{
+	P0 +0
+    {
+       start_up.o
+    }
+    P1 +0
+    {
+        *(+ro)
+        *(+rw, +zi)
+    }
+    
+    ARM_LIB_STACK	+0 ALIGN 8 EMPTY 0x1000 {}
+
+    ARM_LIB_HEAP 0x2E009000 EMPTY 0x7000 ; Heap region growing up
+    { }
+}
+     
